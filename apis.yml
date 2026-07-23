@@ -1,8 +1,26 @@
 aid: 5nine-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/5nine-software.png
 name: 5Nine Software
-description: '5Nine Software is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: '5nine Software, Inc. was a US-based cybersecurity and cloud-management
+  company that built the leading management and security platform for Microsoft Hyper-V
+  and Microsoft Azure environments, letting managed service providers monitor and
+  manage on-premises Hyper-V clusters and Azure instances from a single console. The
+  company was backed by Insight Partners and was acquired by Acronis in December 2019,
+  after which its technology was folded into the Acronis Cyber Platform and is now
+  offered as Acronis Cloud Manager. 5nine no longer operates as an independent vendor:
+  its domain (5nine.com) permanently redirects to the Acronis Cloud Manager product
+  page and it publishes no standalone developer portal, API, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/5nine-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,21 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: acronis
+x-acquired-date: '2019-12'
+x-successor-product: https://www.acronis.com/en-us/business/cloud-manager/
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Cybersecurity
+- Hyper-V
+- Cloud Management
+- Microsoft Azure
+- Managed Service Providers
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/5nine-software-domain-security.yml
 - type: Website
-  url: https://www.5nine.com/
+  url: https://5nine.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
