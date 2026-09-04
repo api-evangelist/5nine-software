@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://5nine.com/', status: 301, note: 'declared website redirects to https://www.acronis.com/en/products/cloud-manager/ — a different registrable domain (5nine.com -> acronis.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/5nine-software.png
 name: 5Nine Software
 description: '5nine Software, Inc. was a US-based cybersecurity and cloud-management
